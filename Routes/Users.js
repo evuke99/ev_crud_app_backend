@@ -3,7 +3,7 @@
 const express = require("express");
 const router = express.Router();
 const UserModel = require("../Models/Users");
-const UsersController = require("../Controllers/UsersController");
+const UsersController = require("../Controllers/usersController");
 
 // POST Request for a user
 router.post("/", UsersController.createUser);
